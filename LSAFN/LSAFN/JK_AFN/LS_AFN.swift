@@ -1,6 +1,6 @@
 //
-//  JKNetworkTools.swift
-//  AFN_Swift_JK
+//  LS_AFN.swift
+//  LS_FAN
 //
 //  Created by WangBiao on 2016/10/28.
 //  Copyright © 2016年 lsrain. All rights reserved.
