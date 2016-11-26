@@ -27,4 +27,5 @@ func afnTest() -> Void {
 ```
 
 - get a Optional result
+
 ![LSAFN_responder](http://upload-images.jianshu.io/upload_images/2329629-6f44f325c602f148.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
