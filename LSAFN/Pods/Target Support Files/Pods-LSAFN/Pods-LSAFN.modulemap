@@ -1,0 +1,6 @@
+framework module Pods_LSAFN {
+  umbrella header "Pods-LSAFN-umbrella.h"
+
+  export *
+  module * { export * }
+}
