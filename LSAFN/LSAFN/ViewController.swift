@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     func afnTest() -> Void {
         LS_AFN.sharedTools.requet(method: LS_AFNMethod.get, urlString: "http://www.weather.com.cn/data/sk/101010100.html", parameters: nil, success: { (responsObj) in
             
-            print(responsObj)
+            // print(responsObj)
         }) { (error) in
             print(error)
         }

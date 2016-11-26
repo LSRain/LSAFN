@@ -48,14 +48,14 @@ class LS_AFN: AFHTTPSessionManager {
         }
     }
     
-    // 全局访问点
+    // shared
     static let sharedTools: LS_AFN = {
-        let jk_afn = LS_AFN()
+        let ls_afn = LS_AFN()
         
         /* 反序列化格式支持 */
-        jk_afn.responseSerializer.acceptableContentTypes?.insert("text/html")
+        ls_afn.responseSerializer.acceptableContentTypes?.insert("text/html")
         
-        return jk_afn
+        return ls_afn
     }()
 }
 
